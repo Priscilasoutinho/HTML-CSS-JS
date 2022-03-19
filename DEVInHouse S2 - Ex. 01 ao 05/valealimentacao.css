@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(vale\ 8.png);
+    background-repeat: no-repeat round center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+h1{
+    color: aliceblue;
+    background-color: rgb(33, 65, 33);
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.alimentacao{
+    background-color: rgb(151, 206, 151, 0.5);
+    padding: 30px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.navbar a{
+    color: black;
+    padding: 1px 5px;
+    margin-right: 1px;
+    border: 1px solid #000;
+    background-color: rgb(151, 206, 151, 0.5);
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(151, 206, 151, 0.5);
+}
+
+h2{    
+    margin-top: 5px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+footer{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(33, 65, 33);
+    text-align: center; 
+    line-height: 20px;
+}
+
+input, button, fieldset, form{
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+fieldset{    
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 237, 245, 0.5);
+    font-size: 1em;
+    margin-left: 0%;
+    justify-content: center;
+    margin: right 0;
+}
+
+fieldset.campo{
+    text-align: left;
+}
+
+.campo.input{
+    padding: 3px 170px;
+    display:block;  
+}
+
+.botao{
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: rgba (0, 0, 0, 0, 0.2)
+}
+
+#check{
+    display: inline-block ;
+}
+
+#nome, #sobrenome, #email, #Unidade, #Função{
+    width: 500px;
+}

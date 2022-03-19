@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="valealimentacao.css" media="screen">
+    <script src="./script.js"></script>
+    <title>Nova Benefícios</title>
+
+</head>
+
+<body>     
+    <h1>Nova Benefícios S/A</h1>
+
+    <div
+    class = "alimentacao">
+    <h2>Vale-Alimentação</h2>
+    <p>Solicite seu Vale-Alimentação</p>
+</div>
+<div
+    class = "navbar">
+    <a href="index.html">Página Inicial</a>
+    <a href="nossahistoria.html">Nossa História</a>
+    <a href="sobrenos.html">Sobre nós</a>
+    <a href="ondeatuamos.html">Onde atuamos</a>
+
+</div>
+
+    
+<form>
+
+    
+    <fieldset class="grupo">
+
+        <div>
+            <br>
+            <p id="subtitulo"><strong>Preencha todos os campos</strong></p>
+        </div>
+        <br>
+        <div class="campo">
+            <label for="name"><strong>Nome</strong></label>
+            <br>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <br>
+
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <br>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+        <br>
+
+        <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <br>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <br>
+
+        <div class="campo">
+            <label for="campo"><strong>Unidade</strong></label>
+            <br>
+            <input type="text" name="Unidade" id="Unidade" required>
+        </div>
+        <br>
+
+        <div class="campo">
+            <label for="funcao"><strong>Função</strong></label>
+            <br>
+            <input type="text" name="Função" id="Função" required>
+        </div>
+        <br>
+
+    
+
+        <div class="check">
+            <label><strong>Qual a sua jornada de trabalho?</strong></label>
+            <br>
+            <label>
+                <input type="radio" name="devweb" value="diarista" checked required>Diarista (segunda a sexta, 7h às 16h)
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="dia" required>Escala 12x36 (diurno)
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="noite" required>Escala 12x36 (noturno)
+            </label>
+        </div>
+        <br>
+
+        <button class="botao" value="enviar" onClick="exibeAlert()"><strong>Enviar</strong></button>
+    </fieldset>
+            
+    
+</form>
+        
+<div class="rodape">
+    <footer>
+       <p>Benefícios S/A</p> 
+       <p>SAC: (00) 0800 000 000</p>
+    </footer>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
